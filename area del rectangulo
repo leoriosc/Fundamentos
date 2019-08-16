@@ -1,0 +1,21 @@
+// Sumados.cpp : Defines the entry point for the console application.
+//autor: Leonardo Rios Cuellar
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+//-----------
+using namespace std;
+void main()
+{
+	float a,b,area;
+	cout<< "ingresar ancho del rectangulo: "<<endl;
+	cin>>a;
+	cout<< "ingresar alto del rectangulo: "<<endl;
+	cin>>b;
+	area=a*b;
+	cout<< "area del rectangulo"<<endl;
+	cout<< area;
+	getch();
+
+}
