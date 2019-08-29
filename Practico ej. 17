@@ -1,0 +1,38 @@
+// ejercicio 17 practico.cpp : Defines the entry point for the console application.
+//
+
+#include <conio.h>
+#include "math.h"
+#include <iostream>
+#include <conio.h>
+#include "StdAfx.h"
+//--------------
+void main()
+{
+char P1[25],P2[25],P3[25],P4[25];
+
+float pr1,pr2,pr3,pr4,total;
+cout << "Hamburguesa, hamburguesa, papas, soda"<<endl;
+cout << " "<<endl;
+cout << "Hamburguesas"<<endl;
+cin >> P1;
+cout << "3"<<endl;
+cin >>pr1;
+cout << "Hamburguesa con queso"<<endl;
+cin >>P2;
+cout << "5"<<endl;
+cin >>pr2;
+cout << "Papas fritas"<<endl;
+cin >>P3;
+cout << "2"<<endl;
+cin >>pr3;
+cout <<"Soda"<<endl;
+cin >>P4;
+cout << "2.5"<<endl;
+cin >>pr4;
+total = "pr1+pr2+pr3+pr4";
+getch();
+}
+
+int _tmain(int argc, _TCHAR* argv[])
+
