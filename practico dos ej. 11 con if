@@ -1,0 +1,43 @@
+// ejercicio practico 2 ej. 11 con if.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#include "math.h"
+//---------------
+using namespace std;
+
+void main()
+{
+	float a,b,c,d,e,f,x,y;
+	cout<<"valores de la formula cuadratica: "<<"\n";
+	cout<<"ingrese A: ";
+	cin>>a;
+	cout<<"ingrese B: ";
+	cin>>b;
+	cout<<"ingrese C: ";
+	cin>>c;
+	cout<<"ingrese D: ";
+	cin>>d;
+	cout<<"ingrese E: ";
+	cin>>e;
+	cout<<"ingrese F: ";
+	cin>>f;
+	if ((a==d) && (b==e))
+{
+	cout<<"la funcion es singular";
+}
+	else
+{
+
+	x=((-b*f)+(c*e))/((-b*d)+(a*e));
+	y=((-c*d)+(f*a))/((-b*d)+(a*e));
+	cout<<"su valor de X es: ";
+	cout<<x;
+	cout<<"su valor de Y es: "<<"\n";
+	cout<<y;
+	}
+	getch();
+
+}
