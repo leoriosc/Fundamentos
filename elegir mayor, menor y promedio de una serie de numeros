@@ -1,0 +1,31 @@
+// elegir mayor, menor y promedio de una serie de numeros.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+int mayor, menor, promedio, suma, numero, n;
+cout<<"digite cantidad de numeros: ";
+cin>>n;
+mayor=0;
+menor=2000;
+suma=0;
+for(int i=1; i<=n; i++)
+{
+	cout<<"ingresa un numero: ";
+	cin>>numero;
+	if(mayor<numero)
+		mayor=numero;
+	if(menor>numero)
+		menor=numero;
+	suma=suma+numero;
+}
+promedio=suma/n;
+cout<<"el promedio es: "<<promedio;
+cout<<"el mayor es: "<<mayor;
+cout<<"el menor es: "<<menor;
+getch();
+}
